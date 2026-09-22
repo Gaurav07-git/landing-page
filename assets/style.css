@@ -1,0 +1,181 @@
+/*
+Font: Roboto (you will need to download and install this font if you don’t already have it)
+Dark background color (header, hero section and footer): #1F2937
+Logo text:
+Font size: 24px
+Color: #F9FAF8
+Hero section main text (“This website is awesome”):
+Font size: 48px
+Color: #F9FAF8
+Weight: 900
+Hero secondary text (“This website has some subtext…”) and header links:
+Font size: 18px
+Color: #E5E7EB
+Button and “Call to action” background color: #3882F6
+Information heading:
+Font size: 36px
+Color: #1F2937
+Weight: 900
+Quote:
+Background color: #E5E7EB
+Font size: 36px
+Color: #1F2937
+Weight: 300
+Font style: italic
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 230px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: center;
+}
+
+.links {
+    display: flex;
+    gap: 48px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 150px 230px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.heading {
+    font-size: 48px; 
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext {
+    line-height: 25px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn {
+    padding: 5px 28px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #3882F6;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #3882F6;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 400px;
+}
+
+.subheading {
+    font-size: 32px;
+    text-align-last: center;
+    margin-top: 75px;
+}
+
+.cards {
+   display: flex; 
+   justify-content: space-between;
+   padding: 75px 300px;
+   gap: 100px;
+}
+
+.item {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
+.container {
+    width: 150px;
+    color: #808080;
+    text-align: center;
+}
+
+.testimonial {
+   background-color:#E5E7EB; 
+   font-size: 36px;
+   font-weight: 300;
+   color: #1F2937;
+   padding: 100px 300px;   
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   gap: 10px;
+}
+
+.person {
+    font-size: 24px;
+    font-weight: 900;
+}
+    
+.cta-section {
+    padding: 100px 230px;    
+}
+
+.cta-box {
+    background-color: #3882F6;
+    width: 100%;
+    padding: 50px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.call-subtext {
+    color: #fff;
+}
+
+.signup-btn {
+    color: #fff;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 24px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px 0px;
+    color: #fff;
+}
